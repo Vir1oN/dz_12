@@ -1,0 +1,40 @@
+.buttonsWrap {
+    display: flex;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    background-color: deepskyblue;
+    user-select: none;
+}
+
+.button:hover {
+    background-color: lightskyblue;
+}
+
+.button > p {
+    font-size: 30px;
+}
+
+.button > .arrow {
+    font-size: 50px;
+}
+
+.inputWrap {
+
+}
+.inputWrap p {
+    font-size: 20px;
+}
+
+.contactWrap {
+    display: flex;
+}
+
+.editFormWrap {
+    margin-left: 100px;
+}
